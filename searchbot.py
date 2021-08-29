@@ -9,6 +9,7 @@ secret = 'LL6veJbobNf1DqIpx46yy6gZV72ysCzQUFcFBbK4VywSV'
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(key, secret)
 
+# defining the hashtage to be searched
 api = tweepy.API(auth)
 hashtag = ("#python", '#100daysofcoding', '#java')
 tweetnumber = 3
